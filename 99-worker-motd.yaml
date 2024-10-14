@@ -3,6 +3,7 @@ kind: MachineConfig
 metadata:
   labels:
     machineconfiguration.openshift.io/role: worker
+    app.kubernetes.io/instance: motd
   name: 99-worker-motd
 spec:
   config:
